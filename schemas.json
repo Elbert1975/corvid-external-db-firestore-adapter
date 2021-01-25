@@ -1,0 +1,247 @@
+{"schema": {
+
+  "displayName": "colecciondbitc",
+
+  "id": "colecciondbitc",
+
+  "allowedOperations":   [
+
+    "get",
+
+    "find",
+
+    "count",
+
+    "update",
+
+    "insert",
+
+    "remove"
+
+  ],
+
+  "maxPageSize": 50,
+
+  "ttl": 3600,
+
+  "fields":   {
+
+    "name":     {
+
+      "displayName": "colecciondbitc",
+
+      "type": "text",
+
+      "queryOperators":       [
+
+        "eq",
+
+        "lt",
+
+        "gt",
+
+        "hasSome",
+
+        "and",
+
+        "lte",
+
+        "gte",
+
+        "or",
+
+        "not",
+
+        "ne",
+
+        "startsWith",
+
+        "endsWith"
+
+      ]
+
+    },
+
+    "country":     {
+
+      "displayName": "country",
+
+      "type": "text",
+
+      "queryOperators":       [
+
+        "eq",
+
+        "lt",
+
+        "gt",
+
+        "hasSome",
+
+        "and",
+
+        "lte",
+
+        "gte",
+
+        "or",
+
+        "not",
+
+        "ne",
+
+        "startsWith",
+
+        "endsWith"
+
+      ]
+
+    },
+
+    "established":     {
+
+      "displayName": "established",
+
+      "type": "datetime",
+
+      "queryOperators":       [
+
+        "eq",
+
+        "lt",
+
+        "gt",
+
+        "hasSome",
+
+        "and",
+
+        "lte",
+
+        "gte",
+
+        "or",
+
+        "not",
+
+        "ne",
+
+        "startsWith",
+
+        "endsWith"
+
+      ]
+
+    },
+
+    "_id":     {
+
+      "displayName": "_id",
+
+      "type": "text",
+
+      "queryOperators":       [
+
+        "eq",
+
+        "lt",
+
+        "gt",
+
+        "hasSome",
+
+        "and",
+
+        "lte",
+
+        "gte",
+
+        "or",
+
+        "not",
+
+        "ne",
+
+        "startsWith",
+
+        "endsWith"
+
+      ]
+
+    },
+
+    "_owner":     {
+
+      "displayName": "_owner",
+
+      "type": "text",
+
+      "queryOperators":       [
+
+        "eq",
+
+        "lt",
+
+        "gt",
+
+        "hasSome",
+
+        "and",
+
+        "lte",
+
+        "gte",
+
+        "or",
+
+        "not",
+
+        "ne",
+
+        "startsWith",
+
+        "endsWith"
+
+      ]
+
+    },
+
+    "share_price":     {
+
+      "displayName": "share_price",
+
+      "type": "number",
+
+      "queryOperators":       [
+
+        "eq",
+
+        "lt",
+
+        "gt",
+
+        "hasSome",
+
+        "and",
+
+        "lte",
+
+        "gte",
+
+        "or",
+
+        "not",
+
+        "ne",
+
+        "startsWith",
+
+        "endsWith"
+
+      ]
+
+    }
+
+  }
+
+}}
