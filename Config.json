@@ -13,3 +13,36 @@
     },
     "secretKey": "3lb3rt2905"
 }
+
+curl -X POST 'https://firestore-conector-db-gxinhdpssq-ue.a.run.app' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "requestContext": {
+        "settings": {
+            "access_token": "IirGXVTK37DvGN9no_EV0CCMoUZVuU-9KrZnB8UI2Zq0jj0VyAs4EyPYEdqI7nDqZBZWHi4pwSz_4os8ywmdyPSyeV0Lh5tVBiR8JWX8g5H44niB98a_k0hUdwFV45MgNi4hpc2JC13CP5NDxnd2rS6kV51Mpj_AJyDF6LZ2piF2VD6cWc5iomPs_DZJ4HhAR2xRZ9bfJUXBTD7ZqbcmhVov4nwtXk1s_bUgBSndXQwOsuKjDmJSXoQOt1Pa5aNqioZ9xyia7J-qcW4ptIYCAP8RuJrtFbTi-WaUK7txrxE_PNkx0UWUprxnBFLFGGBFWNtccacICVz7p8zb3Lj2x7to1AOpxCdW5BaSfxR1UqlO_3pFmghTtdkUrGEqynyyRAgSV2TnO_DosjWYIBlWMXp2nT9EY_aGj-Bw2xCM-P_XCuu-faNvgON3jCAHYwxVTFxMOZ4_RYQBFPuhJYYz8-O39PLJ4gvXIFsX5Npx24XsnTL4p5hLoKnXrIMCmRD8",
+            "token_type": "bearer",
+            "expires_in": 86399,
+            "userName": "pruebas@itconsultoriabog.com",
+            ".issued": "Mon, 25 Jan 2021 23:07:12 GMT",
+            ".expires": "Tue, 26 Jan 2021 23:07:12 GMT"
+            "secretKey": "cPc99cSL0U"
+        },
+        "installationId": "4c8e3648-d325-5ddf-7408-60a4967bff69",
+    }
+}'
+
+{"requestContext": {
+  "settings": {"secretKey": "mySecureSecret"},
+    {
+    "access_token": "IirGXVTK37DvGN9no_EV0CCMoUZVuU-9KrZnB8UI2Zq0jj0VyAs4EyPYEdqI7nDqZBZWHi4pwSz_4os8ywmdyPSyeV0Lh5tVBiR8JWX8g5H44niB98a_k0hUdwFV45MgNi4hpc2JC13CP5NDxnd2rS6kV51Mpj_AJyDF6LZ2piF2VD6cWc5iomPs_DZJ4HhAR2xRZ9bfJUXBTD7ZqbcmhVov4nwtXk1s_bUgBSndXQwOsuKjDmJSXoQOt1Pa5aNqioZ9xyia7J-qcW4ptIYCAP8RuJrtFbTi-WaUK7txrxE_PNkx0UWUprxnBFLFGGBFWNtccacICVz7p8zb3Lj2x7to1AOpxCdW5BaSfxR1UqlO_3pFmghTtdkUrGEqynyyRAgSV2TnO_DosjWYIBlWMXp2nT9EY_aGj-Bw2xCM-P_XCuu-faNvgON3jCAHYwxVTFxMOZ4_RYQBFPuhJYYz8-O39PLJ4gvXIFsX5Npx24XsnTL4p5hLoKnXrIMCmRD8",
+    "token_type": "bearer",
+    "expires_in": 86399,
+    "userName": "pruebas@itconsultoriabog.com",
+    ".issued": "Mon, 25 Jan 2021 23:07:12 GMT",
+    ".expires": "Tue, 26 Jan 2021 23:07:12 GMT"
+  "instanceId": "8edf19b2-d497-4168-a763-c689f6a47f1e",
+  "installationId": "4c8e3648-d325-5ddf-7408-60a4967bff69",
+  "memberId": "77aa88bb-2c2c-d3d3-4e4e-ff55aa66bb77",
+  "role": "OWNER"
+
+}}
