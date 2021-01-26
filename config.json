@@ -1,1 +1,49 @@
+{
+    "googleServiceAccount": {
+        "type": "service_account",
+        "project_id": "<firestore-conector-301502>",
+        "private_key_id": "<d0c4cb1e17cc08d97584d2a18e8d09950e2525e0>",
+        "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDeNAs5hGbq3jRM\nqUEANYSHKN2evFGHs0wGUUX9VNpr5+0DzWmy2Vwz+bBq3ZwGhqptjYuIevQzqDiO\nSZPDzBTYOLLIQVUPK6lV00J5mQz2c2yhVtKUznqIFqJ3JLFb9oGgBTlkJFYaaHho\n8v8vx4YNEExISlIUB0VxVuCzwFitqsuDiU68E4zJMfdrRMCivW5dqaG6ALoEV+ZE\nVlUJVbTOUEwzz2a7v8QCTGi9DALCW9gANEvNkslfRApfXbcmMTT0U7SxzkIJbNaq\nMWYD95lb9pvMwbZQQtSDRu8edRcY427e3KV/ML34/S4u55YbxRY5oa3ldpHtZBLZ\n4i+Haj7xAgMBAAECggEAW+72ce6o0iXrR4iDfz2lPnKW9vT9WoLBQp/fsEeqMxj7\nBCa5w6iQsGRvLFfSFRUkcD0u7OHKJZFFDQG+JDVMroUO2zHEqokq/3pvt3WuWk05\nNauBZtXi9mk/AMJqqxzbVsSykQ9DnJt6rhlToYYQnVkP5pzxRp4XiiQixdwgFIGf\nDcg0yD/hpV+XyD5sHNusL4n540HALU3NZQy1AiqwVaXlmVSJwUTLPtkeJCA9wdIU\nchKPB+skIcmNU0+Zv1/UgwtkS5gfoWFOUFHBf2rl1nquvkLrHUHGIGsaBTwohnBk\nkzub3jEkJygN5HBqqfC9oXnlADLoHLWKCW6oF/WW/QKBgQD85DBh14Bq10G7znhZ\nJDF2evyv4QeS4rz+IRs9PnvATazR+epsuZcKLDgN/rRjjJ9/0N6UvYZkrnWDUXDp\nYHcBbnRIQueY56Zgxx4xa6WroaOID6/PwVSVkCa63x6+m6d05CB0iWheDK3Q6mS2\npH7h3T328S4YOEIc1kM8UvygAwKBgQDg70i82fTcMzQiDA1sRNpqVwc6QBzzNpVz\n3EAbD20aGphc3JXITU5wXh/wYqUixf2LGahagWOjvXhw5aPLPgqaq4QYT8dVGZJF\npUprcndcYD2O8C2/skeh2F35YypLguGFAXI1YWdVhoMmM5SCG3apQrkif7QEmgey\noc/vkGh0+wKBgQDRMOFkziMIPi+97zlWY74Wx/2mb3sYYj776N7jdoBfvuEqgJUO\ngycR3yovSXZmsrhtvpWgbHZzam0Cx6ejJYzLvlaqP83ciiLzA0NSlj1hEEB6GJ/S\nN5aEcc3X3yFLgu6untbKD7ApvEs7+eh9vOzIYX8UesUqe78Uo5jSmcMniQKBgQCv\nY0TnJFfd/vrudVFeE43vDu7ux6ELL4t3LMy7jNq4WPZmqgUMiuLXkTz8Nh6nL5RU\nCuyPrYYg3ZL1DMobpsOj+IrmXgaCX48DSS/u+fECEXTOaI5zg7KBCvGzjFQlTudD\ny23fG5T0Rg8rEVsB3CI5NnKe6M5YLDZGXg+Br6sTUwKBgQCKr0lWTk7h3D37W4HA\nbf28qbNAqIbtLqhqrrCXDBx/TmCaR6hCftv0J7e4vHmXJwPwhb1vnRGPEkqsiCyI\nNVQu9HVzZ0l+H76BspROK0HJtaJ/9j2qncsDOFaF1/NeOxSSEAKjS0X/4kDWAhPg\nzxwzaplIXxjw7ewnuB80YSjuNQ==\n-----END PRIVATE KEY-----\n",",
+        "client_email": "848416929377-compute@developer.gserviceaccount.com",
+        "client_id": "106288203897944091945",
+        "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+        "token_uri": "https://oauth2.googleapis.com/token",
+        "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+        "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/848416929377-compute@developer.gserviceaccount.com"
+    },
+    "secretKey": "3lb3rt2905"
+}
 
+curl -X POST 'https://firestore-conector-db-gxinhdpssq-ue.a.run.app' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "requestContext": {
+        "settings": {
+            "secretKey": "cPc99cSL0U"
+        },
+        "installationId": "4c8e3648-d325-5ddf-7408-60a4967bff69",
+    }
+}'
+
+}
+
+curl -X POST 'https://firestore-conector-db-gxinhdpssq-ue.a.run.app' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "responseContext": {
+        "settings": {
+            "secretKey": "cPc99cSL0U"
+        },
+        "installationId": "4c8e3648-d325-5ddf-7408-60a4967bff69",
+    }
+}'
+
+{"requestContext": {
+  "settings": {"secretKey": "mySecureSecret"},
+    {
+      "instanceId": "8edf19b2-d497-4168-a763-c689f6a47f1e",
+  "installationId": "4c8e3648-d325-5ddf-7408-60a4967bff69",
+  "memberId": "77aa88bb-2c2c-d3d3-4e4e-ff55aa66bb77",
+  "role": "OWNER"
+
+}}
