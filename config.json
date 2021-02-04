@@ -15,14 +15,14 @@
 }
 
 {
-curl -data POST 'https://firestore-conector-db-gxinhdpssq-ue.a.run.app' \
+curl -X POST 'https://firestore-conector-db-gxinhdpssq-ue.a.run.app' \
 --header 'Content-Type: application/json' \
 --data-raw '{
     "requestContext": {
         "settings": {
             "secretKey":"3lb3rt2905"
         },
-        "installationId": "4c8e3648-d325-5ddf-7408-60a4967bff69",
+        "installationId": "8edf19b2-d497-4168-a763-c689f6a47f1e",
     }
 }},
 
