@@ -14,7 +14,6 @@
     "secretKey": "3lb3rt2905"
 }
 
-{
 curl -X POST 'https://firestore-conector-db-gxinhdpssq-ue.a.run.app' \
 --header 'Content-Type: application/json' \
 --data-raw '{
