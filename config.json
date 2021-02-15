@@ -25,24 +25,6 @@ curl -X POST 'https://firestore-conector-db-gxinhdpssq-ue.a.run.app' \
     }
 }},
 
-
-POST /Token HTTP/1.1
-Host: shopcommerce.mps.com.co:7071
-Content-Type: application/x-www-form-urlencoded
-Cache-Control: no-cache
-Postman-Token: 4c8e3648-d325-5ddf-7408-60a4967bff69
-grant_type=password&username=pruebas@itconsultoriabog.com&password=cPc99cSL0U
-
-{
-  "access_token": "-6KclOB4LK2RN77sPc4woeIREjGNT_JN1_HYnHq6QDDlakHHq8RuWHIDjOUMv_GieDVhQ-FXiZlmQ1gMt7Jc5sMIKTMZJghgOtwlQcoGBT5uOYs6duSLoxQ0aru-N31mcbFcUSh_aCdNEafiYivOOhvlud_ha2FFI32mWRX2ZYgLi4UmZWO9CzOzdaeKl2BhBbPFiOihShfeHxWk8cJ1j_QFcljzoqv8FSW1Nn0wIGm-Zy8x1PklWeezBg6iwn-UKFAFRr8AT05_qnxzjgzRh0YBRTcnzNF9RnZOISdNt3Mg6cgJ73GtbUDQtjGfnNhQ08Rz0r3bydTbs6YuUxETwKgxdZN5voKB3UrnZ4XNRxelS45AFc7h8QmF3xnPbm9k3TE7t8bGe7v3-bfYO7dslMpvbeLf3S8EACz24iartBiaY0_DpXO7ZpqYfubHvFXaTktlwNHXLFxIiczvLzOMW2d6Us9xY4rtx9Lcjy190BY4ZHgNOW1D0dePhIzJZS7j",
-  "token_type": "bearer",
-  "expires_in": 1209599,
-  "userName": "pruebas@itconsultoriabog.com",
-  ".issued": "Thu, 03 Dec 2020 02:39:18 GMT",
-  ".expires": "Fri, 04 Dec 2020 02:39:18 GMT"
-}
-
-
 {"requestContext": {
   "settings": {"secretKey": "mySecureSecret"},
  {
@@ -51,4 +33,4 @@ grant_type=password&username=pruebas@itconsultoriabog.com&password=cPc99cSL0U
   "memberId": "77aa88bb-2c2c-d3d3-4e4e-ff55aa66bb77",
   "role": "OWNER"
 
-}}
+}},
